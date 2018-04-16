@@ -1,0 +1,16 @@
+{
+	"language" : {
+    "name"      : "Algae",
+
+		"alphabet"  : ["A", "B"],
+
+    "axiom"     : "A",
+
+		"prules"    :{
+			"A" : "AB",
+			"B" : "A"
+		},
+
+    "iterations" : 7
+	}
+}

@@ -1,0 +1,16 @@
+{
+	"language" : {
+    "name"      : "Sierpinski Triangle",
+
+		"alphabet"  : ["A", "B", "+", "-"],
+
+    "axiom"     : "A",
+
+		"prules"    :{
+			"A" : "B-A-B",
+			"B" : "A+B+A"
+		},
+
+    "iterations" : 6
+	}
+}

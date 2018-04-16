@@ -1,0 +1,15 @@
+{
+	"language" : {
+    "name"      : "Koch Curve",
+
+		"alphabet"  : ["F", "+", "-"],
+
+    "axiom"     : "F",
+
+		"prules"    :{
+			"F" : "F+F-F-F+F"
+		},
+
+    "iterations" : 3
+	}
+}

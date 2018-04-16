@@ -1,0 +1,16 @@
+{
+	"language" : {
+    "name"      : "Dragon Curve",
+
+		"alphabet"  : ["X", "Y", "F", "+", "-"],
+
+    "axiom"     : "FX",
+
+		"prules"    :{
+			"X" : "X+YF+",
+			"Y" : "-FX-Y"
+		},
+
+    "iterations" : 10
+	}
+}

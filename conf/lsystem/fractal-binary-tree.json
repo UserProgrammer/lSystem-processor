@@ -1,0 +1,16 @@
+{
+	"language" : {
+    "name"      : "Fractal Binary Tree",
+
+		"alphabet"  : ["0", "1", "[", "]"],
+
+    "axiom"     : "0",
+
+		"prules"    :{
+			"1" : "11",
+			"0" : "1[0]0"
+		},
+
+    "iterations" : 4
+	}
+}
